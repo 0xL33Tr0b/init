@@ -1,0 +1,6 @@
+Le fichier qui contient les clés RSA autorisées à se connecter via SSH est ~/.ssh/authorized_keys
+
+cat ~/.ssh/authorized_keys
+>
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyvLJQdtNIGPrlXuhmCR15QL/IMC4kS5I6e8RgDatNleoWqZconMQNvFYEvNN4VJtak2HwfHbcJwaBXYGRQAanUP9DjP9lSfod701qOp6BJKNXRZgxYbnwAml8nxSYDujcJaGiY6b4IM37IJBVtqpWpMI+4EX3VoERmEI7WI8RPi4uitdPbwf5jGSclozCCSHgOmbk//vu6dBR6klTR3ZpWP+CCUNMdoqBt8Va/hHlwyak9rOALYPHlTaay1fd2OlbPVvpfMr+aFxIAFaXKvuUl7KPdUlpuAZaD/KS/dRELA0a90q/cv0lIZqtuZTEDx3Tu/dH9tTjRi5NtyMySuu1 vagrant
+>

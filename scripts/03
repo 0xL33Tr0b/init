@@ -1,0 +1,2 @@
+#!/bin/sh
+ls -lhS $1

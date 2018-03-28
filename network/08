@@ -1,0 +1,22 @@
+Si l'on execute whois avec l'IP de slash16.org :
+whois 54.192.185.167 | grep 54 | tail -n 2
+> 
+Amazon Technologies Inc. AMAZON-2011L (NET-54-192-0-0-1) 54.192.0.0 - 54.207.255.255
+Amazon.com, Inc. AMAZO-CF2 (NET-54-192-0-0-2) 54.192.0.0 - 54.192.255.255
+>
+
+On voit que la plage IP appartient a Amazon Technologies Inc.
+
+Sinon avec traceroute :
+traceroute 54.192.185.167
+>
+traceroute to 54.192.185.167 (54.192.185.167), 64 hops max, 52 byte packets
+ 1  10.12.254.254 (10.12.254.254)  1.017 ms  0.712 ms  0.657 ms
+ 2  nat-1 (10.60.1.11)  0.240 ms  0.211 ms  0.192 ms
+ 3  dc3 (62.210.35.1)  1.662 ms  1.873 ms  1.650 ms
+ 4  195.154.1.174 (195.154.1.174)  1.464 ms  1.132 ms  1.055 ms
+ 5  a9k1-45x-s44-2.dc3.poneytelecom.eu (195.154.1.104)  1.240 ms  2.457 ms  1.388 ms
+ 6  amazon-th2.par.franceix.net (37.49.236.118)  1.024 ms  1.581 ms  0.966 ms
+>
+
+On a bien on domaine amazon.

@@ -1,0 +1,5 @@
+le fichier à modifier pour rendre cela permanent est /etc/hostname
+cat /etc/hostname
+>
+stretch
+>

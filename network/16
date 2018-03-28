@@ -1,0 +1,13 @@
+Si j'ajoutes la ligne au fichier /etc/hosts comme ceci:
+echo "46.19.122.85	intra.42.fr" >> /etc/hosts
+
+On aura:
+cat /etc/hosts
+>
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+46.19.122.85	intra.42.fr
+>
+
+Et le domaine intra.42.fr pointera sur l'IP 46.19.122.85.

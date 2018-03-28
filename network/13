@@ -1,0 +1,16 @@
+#nslookup 10.51.1.253
+>
+Server:		10.51.1.42
+Address:	10.51.1.42#53
+
+253.1.51.10.in-addr.arpa	name = dhcp.42.fr.
+>
+
+#traceroute 10.51.1.253
+>
+traceroute to 10.51.1.253 (10.51.1.253), 64 hops max, 52 byte packets
+1  10.12.254.254 (10.12.254.254)  0.902 ms  0.820 ms  0.679 ms
+2  dhcp (10.51.1.253)  0.259 ms  0.241 ms  0.229 ms
+>
+
+10.51.1.253 est un serveur de type DHCP (Dynamic Host Configuration Protocol).

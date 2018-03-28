@@ -1,0 +1,13 @@
+traceroute slash16.org :
+>
+traceroute: Warning: slash16.org has multiple addresses; using 54.192.185.41
+traceroute to slash16.org (54.192.185.41), 64 hops max, 52 byte packets
+1  10.12.254.254 (10.12.254.254)  0.800 ms  0.682 ms  0.740 ms
+2  nat-1 (10.60.1.11)  0.165 ms  0.208 ms  0.243 ms
+3  dc3 (62.210.35.1)  1.896 ms  1.724 ms  1.349 ms
+4  195.154.1.174 (195.154.1.174)  1.148 ms  1.160 ms  1.104 ms
+5  a9k2-45x-s44-2.dc3.poneytelecom.eu (195.154.1.106)  1.201 ms  1.084 ms  1.079 ms
+6  amazon-th2.par.franceix.net (37.49.236.118)  1.009 ms  1.063 ms  1.186 ms
+>
+
+On voit que le dernier materiel avant que les packets n'atteignent l'exterieur a pour nom 'nat-1' et pour IP '10.60.1.11'.

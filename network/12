@@ -1,0 +1,2 @@
+#!/bin/sh
+ping -c 1 10.51.1.253 | tail -n3 | head -n2
